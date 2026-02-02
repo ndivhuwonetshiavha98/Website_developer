@@ -4,6 +4,13 @@
 <title>endevour</title>
 
 <style>
+
+header{
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
 body {background-color:pink}
 
 .city{background-color:tomato;
@@ -25,13 +32,16 @@ body {background-color:pink}
   border-radius: 5px;
   cursor: pointer}
 
-.testbtn:hover {
-  background-color: #059862}
+.testbtn:hover {background-color: purple}
+    
 </style>
 
 </head>
 
 <body>
+
+<header><h1>DATA SCIENTIST</h1></header>
+
 
 <div class="city">
 <h1>Ndivhuwo's academic currivulum vitae</h1>
@@ -40,6 +50,15 @@ body {background-color:pink}
 
 <div>
 <button class="testbtn" onclick="alert('Hello')">click me</button>
+</div>
+
+<div>
+<form>
+ <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
 </div>
 
 </body>
